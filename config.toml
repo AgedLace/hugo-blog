@@ -42,6 +42,24 @@ theme = "mainroad"
   title = "Be Not Deceived"
   subtitle = "Just another site" # Logo subtitle
 
+[menu]
+#  [[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#  [[menu.main]]
+#    identifier = "courses"
+#    name = "Courses"
+#    url = "/courses/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+		identifier = "docs"
+		name = "Documents"
+		url = "/docs/"
+
 [Params.sidebar]
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
